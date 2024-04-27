@@ -1,0 +1,136 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1024px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8F8F8;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.background-svg-right{
+    position: absolute;
+    right: 0;
+}
+.background-svg-left{
+    position:static;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.language{
+    position: absolute;
+    right: 3vw;
+    top: 4vh;
+    width: 69px;
+    height: 36px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    background-color: #ffff;
+}
+.language p {
+    margin: 10px 0 0 23px;
+    font-weight:600;
+}
+.emblem{
+    position: absolute;
+    width: 177px;
+    height: 41px;
+    top: 20vh;
+    left:44vw;
+    gap: 0px;
+    opacity: 0px;
+}
+.emblem p{
+    font-size: 34px;
+    font-weight: 650;
+}
+.content-container{
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    top: 32vh;
+    left: 28vw;
+    padding: 50px 142px 50px 142px;
+    opacity: 0px;
+    background-color: #ffff;
+    border-radius: 16px;
+}
+.content-inner-container{
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+}
+.login-p{
+    font-size: 26px;
+    font-weight: 700;
+}
+.number-password-container{
+    position: absolute;
+    margin-top: 60px ;
+}
+
+.number-password-container p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.input-container input{
+    width: 360px;
+    height: 16px;
+    padding: 18px 16px 18px 16px;
+    gap: 10px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #F8F8F8;
+}
+.input-container img{
+    position: absolute;
+    right: 15px;
+    margin-top: 20px;
+}
+.button{
+    position: absolute;
+    width: 360px;
+    height: 52px;
+    padding: 18px 156px 18px 156px;
+    gap: 10px;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 70px;
+    right: 20px;
+}
+.help{
+    position:absolute;
+}
+.help p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 380px;
+    margin-left: 70px;
+}
+.help a{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1890FF;
+    margin-left: 170px;
+    margin-top: -26px;
+}
